@@ -11,18 +11,25 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 Step1:
 Get the built-in module in pyhton called robomaster and import the robot then import camera from the same module, And also import time for time intervals.
+
 Step2:
 Initialise the robot by giving initialize function for the robot to get commands from the user and move.
+
 Step3:
 Assign a value to the x axis so that the robot moves in the forward direction and for the robot to move towards left or right give a certain value to y axis and for turning toward left and right assign the value of degrees in the z axis.
+
 Step4:
 At the same time also assign the speed of xy movement speed of all the x and y.
+
 Step5:
 The function set_led would determine the colors of the led lights on every four sides of the robot by certain values of rgb to be given for getting various colors to be displayed in the robot.
+
 Step6:
 After giving a lot of commands for the robot to move in a certian path with colors give it some time for the robot to rest and then close the robot.
-Step:
+
+Step7:
 End the program.
+
 ## Program
 ```python
 from robomaster import robot
